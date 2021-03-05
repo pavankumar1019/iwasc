@@ -84,8 +84,8 @@ if ($result = mysqli_query($con, $sql)) {
         <div class="mx-4">
           <p class="title1">
           Accredited by NAAC with B Grade <br>
-            (recognised by UGC under section 2(f) and 12(B) of UGC Act 1956
-            and permenently affilated with thiruvalluvar university,vellore)
+            Recognised by the UGC under section 2(f) &amp; 12(B) of the UGC Act 1956
+  ,Permanently Affilated with Thiruvalluvar University and Approved by The Government of Tamil Nadu
           </p>
         </div>
       </div>
