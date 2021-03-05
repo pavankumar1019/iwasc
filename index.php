@@ -60,7 +60,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                             <div class="card border-success" id="print">
                                 <!-- <img src="..." class="card-img-top" alt="..."> -->
                                 <div class="card-body">
-                                    <h5 class="card-title">Induvidual &amp; Bulk Printing</h5>
+                                    <h5 class="card-title">Individual &amp; Bulk Printing</h5>
                                     <p class="card-text">
                                         Generate &amp; print ID card for Individual and Bulk Data
                                     </p>
@@ -227,7 +227,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                 <!-- start content_slider -->
                      <div class="container">
                          <ol>
-                             <li> Download the sample file format ( <a href="">Download link</a> )</li>
+                             <li> Download the sample file format ( <a href="./sample.csv">Download link</a> )</li>
                              <li>Fill the employee details in the columns of the file</li>
                              <li>Save the file as CSV not as xls </li>
                              <li>Upload the file</li>
