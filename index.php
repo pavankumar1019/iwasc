@@ -1,5 +1,11 @@
 <?php 
+session_start();
 
+if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
+}else{
+  header("Location: auth.php");
+  exit();
+}
  ?>
 <!DOCTYPE html>
 <html lang="en">
