@@ -245,7 +245,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                 <!-- start content_slider -->
                      <div class="container">
                          <ol>
-                             <li> Download the sample file format ( <a href="./sample.csv">Download link</a> )</li>
+                             <li> Download the sample file format ( <a href="./sample.csv" download>Download link</a> )</li>
                              <li>Fill the employee details in the columns of the file</li>
                              <li>Save the file as CSV not as xls </li>
                              <li>Upload the file</li>
