@@ -120,7 +120,7 @@ if ($result = mysqli_query($con, $sql)) {
            <?php echo $fullname;?><br /><span style="color: rgb(19, 18, 18)"
               ><?php echo $regnumber;?></span
             >
-            <br /><span style="color: rgb(19, 18, 18);font-size:40px"><?php echo $course;?></span>
+            <br /><span style="color: rgb(19, 18, 18);font-size:30px"><?php echo $course;?></span>
           </p>
         </div>
         <div class="mx-6 d-flex justify-content-end align-items-end">
