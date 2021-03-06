@@ -15,7 +15,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital ID-card generator</title>
-
+    <link rel="shortcut icon" href="/idicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./style/style.css" />
     <!-- Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
