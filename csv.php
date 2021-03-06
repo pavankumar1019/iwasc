@@ -7,6 +7,6 @@ header('Content-Disposition: attachment; filename="sample.csv"');
 
 // The PDF source is in original.pdf
 readfile('sample.csv');
-header("Location: index.php"); /* Redirect browser */
-exit();
+/* Redirect browser */
+
 ?>
