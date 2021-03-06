@@ -124,7 +124,7 @@ if ($result = mysqli_query($con, $sql)) {
           </p>
         </div>
         <div class="mx-6 d-flex justify-content-end align-items-end">
-          <img class="img-fluid" src="principal.png" style="width:25px;" alt="" srcset="">
+          <img  src="principal.png" style="width:25px;" alt="" srcset="">
         </div>
         <div class="mx-6 d-flex justify-content-end align-items-end">
           <p style="font-weight: bold">Principal</p>
