@@ -94,10 +94,28 @@
      <br />
      <label>course </label>
      <select type="text" name="course" id="course" class="form-control" required>
-                    <option selected disabled value="">Choose...</option>
-                    <option value="BSC">BSC</option>
-                    <option value="BCA">BCA</option>
-                    <option value="BCOM">BCOM</option>
+     <option selected disabled value="">Choose...</option>
+                    <option value="B.Sc. NFSM&D">B.Sc. NFSM&D</option>
+                    <option value="B.Sc. BioChemistry">B.Sc. BioChemistry</option>
+                    <option value="B.Com (General)">B.Com (General)</option>
+                    <option value="B.A. English">B.A. English</option>
+                    <option value="B.C.A">B.C.A</option>
+                    <option value="B.Sc. Mathematics">B.Sc. Mathematics</option>
+                    <option value="B.B.A">B.B.A</option>
+                    <option value="B.Com(Computer Applications)">B.Com(Computer Applications)</option>
+                    <option value="B.Sc. Computer Science">B.Sc. Computer Science</option>
+                    <option value="B.Sc. Chemistry">B.Sc. Chemistry</option>
+                    <option value="B.Sc. Interior Design & Decor">B.Sc. Interior Design & Decor</option>
+                    <option value="B.Sc. Zoology">B.Sc. Zoology </option>
+                    <option value="M.A. English">M.A. English</option>
+                    <option value="M.Com">M.Com</option>
+                    <option value="M.Sc. Mathematics">M.Sc. Mathematics</option>
+                    <option value="M.Sc. Computer Science">M.Sc. Computer Science</option>
+                    <option value="M.Sc. Foods & Nutrition">M.Sc. Foods & Nutrition</option>
+                    <option value="M.Sc. Biochemistry">M.Sc. Biochemistry</option>
+                    <option value="M.Phil.English">M.Phil.English</option>
+                    <option value="M.Phil.Commerce">M.Phil.Commerce</option>
+                    <option value="M.Phil.Mathematics">M.Phil.Mathematics</option>
                   </select>
      <br />
      <label>Blood Group </label>
