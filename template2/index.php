@@ -91,7 +91,7 @@ if ($result = mysqli_query($con, $sql)) {
                    Date of Birth &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <?php echo $dob;?> <br>
                    Mobile Number  &nbsp;&nbsp;&nbsp;: <?php echo $phone;?> <br>
                 </p>
-                <p style="width:100px">
+                <p style="width:70%">
                     <b>Address</b> <br>
                     <?php echo $address;?>
                 </p>
