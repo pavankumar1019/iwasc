@@ -66,7 +66,9 @@ if ($result = mysqli_query($con, $sql)) {
 
             </div>
             <div class="col">
-<img src="../crud_operations/upload/<?php echo $img;?>" alt="" class="img-fluid"  style="border: solid black 1px;width:250px;min-height: 200px; margin-top: 215px;">
+                <div style="border: solid black 1px;width:250px;height: 200px; margin-top: 215px;">
+                <img src="../crud_operations/upload/<?php echo $img;?>" alt="" class="img-fluid"  style="width: 100%;height: 100%;object-fit: cover;">
+                </div>
             </div>
            
         </div>
