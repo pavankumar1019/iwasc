@@ -293,7 +293,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
             <div class="card-body">
               <h5 class="card-title">Induvidual & Bulk Printing Here .!</h5>
               <p class="card-text">Fill the fields and tap on print</p>
-              <form class="row g-3 needs-validation"  action="template_id/" method="post">
+              <form class="row g-3 needs-validation"  action="template2/" method="post">
                 <div class="col-md-4">
                     <label for="validationCustomUsername" class="form-label">Register Number</label>
                     <div class="input-group has-validation">

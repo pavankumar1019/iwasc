@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.maindiv1{
+    color:white;
+
+}
+
+.vector1{
+
+}
+.title{
+    font-size:20px;
+    text-transform:capitalize;
+    text-align: center;
+}
+.name{
+    font-size:25px;
+    font-weight: bolder;
+    text-align: center;
+}
+.barcode{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.fotter1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+.backcard{
+    width: 100%;
+    min-height:1130px;
+
+}
+.backp{
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+@media print {
+    
+    .card{ display: block; page-break-before: always; }
+    div{
+        page-break-before: avoid;
+    }
+    @page
+    {
+     size: A4;
+     size: portrait;
+       }
+       .fotter1{
+        height: 2vh;
+    }
+    
+    }
