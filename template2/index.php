@@ -55,8 +55,8 @@ if ($result = mysqli_query($con, $sql)) {
                 <h3 style="font-weight: bolder;  text-transform: uppercase;"> <?php echo $fullname;?>
                 </h3>
                 <p class="title"><?php echo $course;?><br>
-                    Register No: <?php echo $regnumber;?> <br>
-                    valid upto:  <?php echo $pdate;?>
+                    Register No&nbsp;: <?php echo $regnumber;?> <br>
+                    valid upto&nbsp;&nbsp;:  <?php echo $pdate;?>
                 </p>
                 <img src="./logo.jpeg" class="img-fluid" alt=""><br>
                 <img src="./principal.png" width="100px" alt="">
