@@ -271,7 +271,8 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                   </div>
                 </div>          
                 <div class="col-12">
-                  <button class="btn btn btn-outline-primary" name="import" id="import" type="submit"><i class="fa fa-cloud-upload" aria-hidden="true"></i>&nbsp;Upload To Cloud</button>
+                <input type="submit" class="btn btn btn-outline-primary" name="import" id="import" value="Upload To Cloud" >
+                  <!-- <button class="btn btn btn-outline-primary" name="import" id="import" type="submit"><i class="fa fa-cloud-upload" aria-hidden="true"></i>&nbsp;Upload To Cloud</button> -->
                 </div>
               </form>
             </div>
@@ -387,7 +388,7 @@ $(document).ready(function(){
         $("#message").show("slow").delay(2000).hide("slow");
         $('#import_excel_form')[0].reset();
         $('#import').attr('disabled', false);
-        $('#import').val('Import');
+        $('#import').val('Upload To Cloud');
       }
     })
   });
