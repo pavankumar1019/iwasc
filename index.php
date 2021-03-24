@@ -387,7 +387,7 @@ $(document).ready(function(){
         $('#message').html(data);
         $("#message").show("slow").delay(2000).hide("slow");
         $('#import_excel_form')[0].reset();
-        $('#import').attr('disabled', false);
+        // $('#import').attr('disabled', false);
         $('#import').val('Import');
       }
     })
