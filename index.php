@@ -370,10 +370,11 @@ error: function(){}
 $(document).ready(function(){
   $('#import_excel_form').on('submit', function(event){
     event.preventDefault();
+    var formData = new FormData($(this)[0]);
     $.ajax({
       url:"import.php",
       method:"POST",
-      data:new FormData(this),
+      data: formData,
       contentType:false,
       cache:false,
       processData:false,
