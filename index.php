@@ -260,7 +260,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 
               </div>
               <span  id="message" style="display:none;"></span>
-              <form  id="import_excel_form" enctype="multipart/form-data" method="post">
+              <form  id="import_excel_form" enctype="multipart/form-data" action="import.php" method="post">
 
    
                 <div class="col-md-3">
