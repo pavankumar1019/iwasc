@@ -136,7 +136,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                   <label for="validationCustomUsername" class="form-label">Mobile number</label>
                   <div class="input-group has-validation">
                     <span class="input-group-text" id="inputGroupPrepend">+91</span>
-                    <input type="number" class="form-control" name="phone" id="phone validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                    <input type="text" class="form-control" onkeypress="return numbersOnly(event)" name="phone" id="phone validationCustomUsername" aria-describedby="inputGroupPrepend" required>
                     <div class="invalid-feedback">
                       Please choose a number.
                     </div>
@@ -436,6 +436,16 @@ function lettersOnly1()
             var charCode = event.keyCode;
 
             if ((charCode > 64 && charCode < 91)  || (charCode > 47 && charCode < 58) )
+
+                return true;
+            else
+                return false;
+}
+function numbersOnly() 
+{
+            var charCode = event.keyCode;
+
+            if (charCode > 47 && charCode < 58)
 
                 return true;
             else
