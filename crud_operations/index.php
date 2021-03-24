@@ -125,7 +125,10 @@
                     <option value="A-">A-</option>
                     <option value="B+">B+</option>
                     <option value="B-">B-</option>
-                    <option value="OB+">OB-</option>
+                    <option value="o+">o+</option>
+                    <option value="o-">o-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
                   </select>
      <br />
      <label>DOB</label>
