@@ -260,7 +260,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 
               </div>
               <span  id="message" style="display:none;"></span>
-              <form  id="import_excel_form" enctype="multipart/form-data" action="excel_import/import.php" method="post">
+              <form  id="import_excel_form" enctype="multipart/form-data" method="post">
 
    
                 <div class="col-md-3">
@@ -371,7 +371,7 @@ $(document).ready(function(){
   $('#import_excel_form').on('submit', function(event){
     event.preventDefault();
     $.ajax({
-      url:"excel_import/import.php",
+      url:"import.php",
       method:"POST",
       data:new FormData(this),
       contentType:false,
