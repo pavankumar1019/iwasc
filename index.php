@@ -260,7 +260,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 
               </div>
               <span  id="message" style="display:none;"></span>
-              <form  id="import_excel_form" method="POST">
+              <form method="post" id="import_excel_form" enctype="multipart/form-data">
 
    
                 <div class="col-md-3">
@@ -370,11 +370,10 @@ error: function(){}
 $(document).ready(function(){
   $('#import_excel_form').on('submit', function(event){
     event.preventDefault();
-    var formData = new FormData($(this)[0]);
     $.ajax({
       url:"import.php",
       method:"POST",
-      data: formData,
+      data:new FormData(this),
       contentType:false,
       cache:false,
       processData:false,
@@ -387,7 +386,7 @@ $(document).ready(function(){
         $('#message').html(data);
         $("#message").show("slow").delay(2000).hide("slow");
         $('#import_excel_form')[0].reset();
-        // $('#import').attr('disabled', false);
+        $('#import').attr('disabled', false);
         $('#import').val('Import');
       }
     })
