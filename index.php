@@ -371,12 +371,10 @@ $(document).ready(function(){
   $('#import_excel_form').on('submit', function(event){
     event.preventDefault();
     $.ajax({
-      url:"import.php",
-      method:"POST",
-      data:new FormData(this),
-      contentType:false,
-      cache:false,
-      processData:false,
+      url: "import.php",
+type: "POST",
+data: new FormData(this),
+contentType: false, cache: false, processData:false,
       beforeSend:function(){
         // $('#import').attr('disabled', 'disabled');
         $('#import').val('Importing...');
