@@ -1,4 +1,12 @@
-<!DOCTYPE html>
+<?php 
+session_start();
+
+if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
+}else{
+  header("Location: auth.php");
+  exit();
+}
+ ?><!DOCTYPE html>
 <html>
 <head>
 	<title>LOGIN</title>
