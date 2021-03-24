@@ -227,9 +227,8 @@ $(document).ready(function(){
     $('#full_name').val(data.full_name);
     $('#reg_number').val(data.reg_number);
     $('#phone').val(data.phone);
-
     $('#course').append('<option value='+data.course+' selected>'+data.course+'</option>');
-    $('#blood_group').val(data.blood_group);
+    $('#blood_group').append('<option value='+data.blood_group+' selected>'+data.blood_group+'</option>');
     $('#dob').val(data.dob);
     $('#address').val(data.address);
     $('.modal-title').text("Edit User");
