@@ -379,7 +379,7 @@ $(document).ready(function(){
       cache:false,
       processData:false,
       beforeSend:function(){
-        $('#import').attr('disabled', 'disabled');
+        // $('#import').attr('disabled', 'disabled');
         $('#import').val('Importing...');
       },
       success:function(data)
