@@ -58,6 +58,6 @@ else
  $message = '<div class="alert alert-danger">Please Select File</div>';
 }
 
-echo $message+$_FILES["import_excel"]["name"];
+echo $message;
 
 ?>
