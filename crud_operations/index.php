@@ -227,7 +227,10 @@ $(document).ready(function(){
     $('#full_name').val(data.full_name);
     $('#reg_number').val(data.reg_number);
     $('#phone').val(data.phone);
-    $('#course').val(data.course);
+    $('#course').append($('<option>', {
+    value: data.course,
+    text: data.course
+}));
     $('#blood_group').val(data.blood_group);
     $('#dob').val(data.dob);
     $('#address').val(data.address);
