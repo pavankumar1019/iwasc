@@ -53,7 +53,7 @@ if ($result = mysqli_query($con, $sql)) {
         </div>
     </div>
     <div style="margin-top: -100px;">
-    <div style="text-align: center;">
+    <div style="text-align: left;">
     <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 900; text-transform: uppercase;"> <?php echo $fullname;?>
                 </h2>
@@ -67,7 +67,7 @@ if ($result = mysqli_query($con, $sql)) {
         <div class="row">
             <div class="col" style="display: flex;flex-direction: column; -ms-flex-wrap: wrap;
             flex-wrap: wrap;align-items: center;justify-content: center;">
-            <div style="text-align: left;">
+            <div style="text-align: center;">
                 <img src="./logo.jpeg" class="img-fluid" alt=""><br>
                 <img src="./principal.png" width="100px" alt="">
                 <h2>PRINCIPAL</h2>
