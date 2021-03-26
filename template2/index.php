@@ -69,7 +69,7 @@ if ($result = mysqli_query($con, $sql)) {
             flex-wrap: wrap;align-items: center;justify-content: center;">
             <div style="text-align: center;">
                 <img src="./logo.png" class="img-fluid" alt=""><br>
-                <img src="./principal.png" width="100px" alt="">
+                <img src="./principal.png" width="50px" alt="">
                 <h2>PRINCIPAL</h2>
             </div>
                
