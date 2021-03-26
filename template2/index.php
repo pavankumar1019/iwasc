@@ -68,7 +68,7 @@ if ($result = mysqli_query($con, $sql)) {
             <div class="col" style="display: flex;flex-direction: column; -ms-flex-wrap: wrap;
             flex-wrap: wrap;align-items: center;justify-content: center;">
             <div style="text-align: center;">
-                <img src="./logo.png" width="250px" class="img-fluid" alt=""><br>
+                <img src="./logo.png" width="230px" class="img-fluid" alt=""><br>
                 <img src="./principal.png" width="100px" alt="">
                 <h2>PRINCIPAL</h2>
             </div>
@@ -76,7 +76,7 @@ if ($result = mysqli_query($con, $sql)) {
 
             </div>
             <div class="col">
-                <div style="border: solid  #130060 5px;width:250px;height: 276px; ">
+                <div style="border: solid  #130060 5px;width:270px;height: 300px; ">
                 <img src="../crud_operations/upload/<?php echo $img;?>" alt="" class="img-fluid"  style="width: 100%;height: 100%;object-fit: cover;">
                 </div>
             </div>
