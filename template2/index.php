@@ -52,18 +52,22 @@ if ($result = mysqli_query($con, $sql)) {
             <img src="./Group1.png" class="img-fluid" alt="" srcset="" />
         </div>
     </div>
-    <div class="" style="margin-top: -100px;">
-        <div class="row">
-            <div class="col" style="display: flex;flex-direction: column; -ms-flex-wrap: wrap;
-            flex-wrap: wrap;align-items: center;justify-content: center;">
-            <div style="text-align: center;">
-                <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    <div style="margin-top: -100px;">
+    <div style="text-align: center;">
+    <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 900; text-transform: uppercase;"> <?php echo $fullname;?>
                 </h2>
                 <p class="title"><?php echo $course;?><br>
                     Register No&nbsp;: <?php echo $regnumber;?> <br>
                     valid upto&nbsp;<?php echo $pdate;?>
                 </p>
+    </div>
+    </div>
+    <div class="" style="margin-top: -100px;">
+        <div class="row">
+            <div class="col" style="display: flex;flex-direction: column; -ms-flex-wrap: wrap;
+            flex-wrap: wrap;align-items: center;justify-content: center;">
+            <div style="text-align: center;">
                 <img src="./logo.jpeg" class="img-fluid" alt=""><br>
                 <img src="./principal.png" width="100px" alt="">
                 <h2>PRINCIPAL</h2>
