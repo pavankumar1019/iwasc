@@ -249,7 +249,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                      <div class="container">
                          <ol>
                              <li> Download the sample file format ( <a href="csv.php">Download link</a> )</li>
-                             <li>Fill the employee details in the columns of the file</li>
+                             <li>Fill the employee details in the columns of the file (Note:- Date format should be in yyy-mm-dd</li>
                              <li>Save the file as CSV not as xls </li>
                              <li>Upload the file</li>
                         </ol>
