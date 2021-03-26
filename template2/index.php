@@ -57,7 +57,7 @@ if ($result = mysqli_query($con, $sql)) {
     <h1 style="
     font-weight: 700; text-transform: uppercase;"> <?php echo $fullname;?>
                 </h1>
-                <p class="title"><?php echo $course;?><br>
+                <p class="title" style="font-size:25px;"><?php echo $course;?><br>
                     Register No&nbsp;: <?php echo $regnumber;?> <br>
                     valid upto&nbsp;<?php echo $pdate;?>
                 </p>
