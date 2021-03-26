@@ -53,7 +53,7 @@ if ($result = mysqli_query($con, $sql)) {
         </div>
     </div>
     <div style="margin-top: -100px;">
-    <div style="text-align: left;">
+    <div style="text-align: left;margin-left:50px;">
     <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 900; text-transform: uppercase;"> <?php echo $fullname;?>
                 </h2>
