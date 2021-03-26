@@ -99,7 +99,7 @@ if ($result = mysqli_query($con, $sql)) {
             
             <div class="backp">
                 <p>
-                  <b>Blood Group  &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;:</b>  <?php echo $blood_group;?> <br>
+                  <b>Blood Group  &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</b>  <?php echo $blood_group;?> <br>
                   <b> Date of Birth &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </b> <?php echo $dob;?> <br>
                   <b>Mobile Number  &nbsp;&nbsp;&nbsp;:</b>  <?php echo $phone;?> <br>
                 </p>
