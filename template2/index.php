@@ -67,7 +67,7 @@ if ($result = mysqli_query($con, $sql)) {
         <div class="row">
             <div class="col" style="display: flex;flex-direction: column; -ms-flex-wrap: wrap;
             flex-wrap: wrap;align-items: center;justify-content: center;">
-            <div style="text-align: right;">
+            <div style="text-align: left;">
                 <img src="./logo.jpeg" class="img-fluid" alt=""><br>
                 <img src="./principal.png" width="100px" alt="">
                 <h2>PRINCIPAL</h2>
