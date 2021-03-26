@@ -21,7 +21,7 @@ $generator = new \Picqer\Barcode\BarcodeGeneratorPNG();
         <style>
         p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 900;
+    font-weight: 600;
 }</style>
 </head>
 <body>
