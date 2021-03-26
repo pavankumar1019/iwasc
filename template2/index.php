@@ -63,7 +63,7 @@ if ($result = mysqli_query($con, $sql)) {
                 </p>
     </div>
     </div>
-    <div class="" style="margin-top: -100px;">
+    <div class="">
         <div class="row">
             <div class="col" style="display: flex;flex-direction: column; -ms-flex-wrap: wrap;
             flex-wrap: wrap;align-items: center;justify-content: center;">
