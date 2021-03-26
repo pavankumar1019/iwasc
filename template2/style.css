@@ -47,6 +47,8 @@ color: black;
     font-size: 30px;
     margin-left: 60px;
     margin-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
 }
 @media print {
     
