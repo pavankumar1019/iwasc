@@ -68,7 +68,7 @@
     
    </div>
   </div>
-<div align="center">&copy; Copyright  <script>document.write(new Date().getFullYear())</script> PAVAK KUMAR .S, All Rights Reserved</div>
+<div align="center">&copy; Copyright  <script>document.write(new Date().getFullYear())</script>  RATS TECH, All Rights Reserved</div>
  </body>
 </html>
 
