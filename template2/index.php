@@ -57,7 +57,8 @@ if ($result = mysqli_query($con, $sql)) {
             <div class="col" style="display: flex;flex-direction: column; -ms-flex-wrap: wrap;
             flex-wrap: wrap;align-items: center;justify-content: center;">
             <div style="text-align: center;">
-                <h3 style="font-weight: bolder;  text-transform: uppercase;"> <?php echo $fullname;?>
+                <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900; text-transform: uppercase;"> <?php echo $fullname;?>
                 </h3>
                 <p class="title"><?php echo $course;?><br>
                     Register No&nbsp;: <?php echo $regnumber;?> <br>
