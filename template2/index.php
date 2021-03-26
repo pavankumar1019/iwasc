@@ -52,7 +52,7 @@ if ($result = mysqli_query($con, $sql)) {
             <img src="./Group1.png" class="img-fluid" alt="" srcset="" />
         </div>
     </div>
-    <div style="margin-top: -110px;margin-bottom: 10px;">
+    <div style="margin-top: -110px;margin-bottom: 20px;">
     <div style="text-align: left;margin-left:50px;">
     <h1 style="
     font-weight: 700; text-transform: uppercase;"> <?php echo $fullname;?>
