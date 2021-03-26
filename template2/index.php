@@ -76,7 +76,7 @@ if ($result = mysqli_query($con, $sql)) {
 
             </div>
             <div class="col">
-                <div style="border: solid  #130060 5px;width:250px;height: 276px; margin-top: 215px;">
+                <div style="border: solid  #130060 5px;width:250px;height: 276px; ">
                 <img src="../crud_operations/upload/<?php echo $img;?>" alt="" class="img-fluid"  style="width: 100%;height: 100%;object-fit: cover;">
                 </div>
             </div>
