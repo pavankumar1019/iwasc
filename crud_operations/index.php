@@ -158,6 +158,9 @@
 
 <script type="text/javascript" language="javascript" >
 $(document).ready(function(){
+  setTimeout(function() {
+    dataTable.ajax.reload();
+  }, 3000);
   $("#refresh").click(function(){
     dataTable.ajax.reload();
 });
