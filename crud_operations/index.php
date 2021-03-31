@@ -202,6 +202,9 @@ $(document).ready(function(){
     data:new FormData(this),
     contentType:false,
     processData:false,
+     beforeSend:function(){
+        $('#action').val('updating....');
+      },
     success:function(data)
     {
      alert(data);
