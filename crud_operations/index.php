@@ -139,7 +139,7 @@
      <textarea  name="address" id="address" class="form-control" required></textarea>
      <br />
      <label>Select User Image</label>
-     <input type="file" name="user_image" id="user_image" />
+     <input type="file" name="user_image"  onchange="readURL(this);" id="user_image" />
      <span id="user_uploaded_image" ></span>
     </div>
     <div class="modal-footer">
@@ -295,5 +295,19 @@ function lettersOnly1()
                 alert("Only A-Z,0-1 are allowed");
                 return false;
 }
+function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#blah')
+                    .attr('src', e.target.result)
+                    .width(150)
+                    .height(200);
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
 </script>
 

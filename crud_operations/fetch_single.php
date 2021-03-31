@@ -22,7 +22,7 @@ if(isset($_POST["user_id"]))
   $output["address"] = $row["address"];
   if($row["image"] != '')
   {
-   $output['user_image'] = '<img src="upload/'.$row["image"].'" class="img-thumbnail" width="50%" height="90%" /><input type="hidden" name="hidden_user_image" value="'.$row["image"].'" />';
+   $output['user_image'] = '<img src="upload/'.$row["image"].'" class="img-thumbnail" id="blah" width="50%" height="90%" /><input type="hidden" name="hidden_user_image" value="'.$row["image"].'" />';
   }
   else
   {
