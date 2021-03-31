@@ -48,6 +48,9 @@
     <div align="right">
      <button type="button" id="add_button" data-toggle="modal" data-target="#userModal" class="btn btn-info  btn-lg">Register Student</button>
     </div>
+    <div align="center">
+    <h2 id="refresh"><i class="fa fa-refresh" aria-hidden="true"></i></h2>
+    </div>
     <br /><br />
     <table id="user_data" class="table table-bordered table-striped">
      <thead>
@@ -155,6 +158,9 @@
 
 <script type="text/javascript" language="javascript" >
 $(document).ready(function(){
+  $("#refresh").click(function(){
+    dataTable.ajax.reload();
+});
  $('#add_button').click(function(){
   $('#user_form')[0].reset();
   $('.modal-title').text("Add User");
